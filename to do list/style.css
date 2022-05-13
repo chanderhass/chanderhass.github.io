@@ -1,0 +1,88 @@
+*{
+    padding : 1;
+    margin : 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(151, 223, 160);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color : white;
+}
+
+p{
+    font-family: cursive;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 10px;
+    padding : 5px 0;
+
+}
+
+span{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.top{
+    text-align: center;
+    background-color: rgb(55, 219, 170);
+}
+
+.top i, .top h1{
+    font-size : 48px;
+    display : inline-block;
+    margin : 10px;
+}
+
+
+.container{
+    display : flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.task-lists{
+    border : 0 2px 2px 0 solid black;
+    border-radius: 20px;
+    box-shadow: 8px 8px 15px black;
+    height : 600px;
+    width : 400px;
+    margin-top : 10px;
+    background-color: rgb(106, 250, 149);
+}
+
+.whenOverFlow{
+    overflow-y: scroll;
+    box-shadow : -8px -8px 15px rgb(90, 231, 126);
+}
+
+.top i{
+    font-size : 48px;
+}
+
+.heading{
+    text-align: center;
+    border-bottom: 2px solid rgba(94, 233, 198, 0.5);
+}
+
+.newElement{
+    background-color: black;
+    color : whitesmoke;
+    padding : 5px;
+    margin-top : 3px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.input-task input{
+   display: inline-block;
+   position : relative;
+   top : 40px;
+   left : 50px;
+   height : 40px;
+   width : 300px;
+   border: 2px solid black;
+   border-radius: 5px;
+   padding : 10px;
+}
